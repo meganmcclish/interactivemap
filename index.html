@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>HTML5 Template</title>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<link type="text/css" rel="stylesheet" href="css/template.css" />
+</head>
+
+<body>
+<!-- Lightweight Content -->
+<nav>
+	<a href='#' id='close'>X</a>
+	<ul>
+		<li><a href='#' id='loc1'>Moab</a></li>
+		<li><a href='#' id='loc2'>Visitor Center</a></li>
+		<li><a href='#' id='loc3'>Park Avenue Viewport</a></li>
+		<li><a href='#' id='loc4'>Petrified Dunes</a></li>
+		<li><a href='#' id='loc5'>Red Cliff Lodge</a></li>
+		<li><a href='#' id='loc6'>Windows Section</a></li>
+		<li><a href='#' id='loc7'>Balanced Rock</a></li>
+		<li><a href='#' id='loc8'>Delicate Arch</a></li>
+		<li><a href='#' id='loc9'>Skyline Arch</a></li>
+		<li><a href='#' id='loc10'>Devils Garden</a></li>
+	</ul>
+</nav>
+<div id='mapHolder'>
+	<div id='mapGroup'>
+		<img id='theMap' src='images/map.jpg'>
+		<h1>Arches National Park</h1>
+		<div class='highlight' id='site_1'></div>
+		<div class='highlight' id='site_2'></div>
+		<div class='highlight' id='site_3'></div>
+		<div class='highlight' id='site_4'></div>
+		<div class='highlight' id='site_5'></div>
+		<div class='highlight' id='site_6'></div>
+		<div class='highlight' id='site_7'></div>
+		<div class='highlight' id='site_8'></div>
+		<div class='highlight' id='site_9'></div>
+		<div class='highlight' id='site_10'></div>
+		<div class='popup' id='pop1'>
+			<img src="images/moab.png" id="moab" alt="downtown moab">
+			<h2>MOAB</h2>
+			<p>
+			Moab is a city in eastern Utah. It’s a gateway to massive red rock formations in Arches National Park. Southwest, Canyonlands National Park features mesas and buttes carved by the Green and Colorado rivers, plus Native American rock art. Dinosaur tracks can be found at sites like Bull Canyon Overlook and Copper Ridge. In the city, collections at the Museum of Moab include dinosaur bones and archaeological artifacts.
+			</p>
+		</div>
+		<div class='popup' id='pop2'>
+			<img src="images/visitor_center.png" id="visitor_center" alt="Arches National Park Visitor Center">
+			<h2>Visitor Center</h2>
+			<p>The visitor center is generally open every day except December 25. Hours vary by season. You can learn about the park with exhibits, a park movie, and a bookstore. Rangers are on duty to answer your questions. Restrooms and drinking water are available.</p>
+			<ul>
+				<li><strong>STANDARD HOURS</strong></li>
+				<li>Sunday-Saturday</li>
+				<li>8:00 AM - 5:00 PM</li>
+			</ul>
+			<a href="https://www.nps.gov/arch/planyourvisit/visitorcenters.htm" target="_blank">View Closures</a>
+		</div>
+		<div class='popup' id='pop3'>
+			<img src="images/park_avenue.png" id="park_avenue" alt="Park Avenue Trail">
+			<br>
+			<br>
+			<h2>Park Avenue Viewpoint</h2>
+			<p>After passing the visitor center and climbing steeply along switchback roads, the first major area of the park you'll see is Park Avenue and the Courthouse Towers area. You can walk among massive monoliths and towering walls and see views of the nearby La Sal Mountains.</p>
+			<a href="https://www.nps.gov/arch/planyourvisit/courthouse-towers.htm" target="_blank">Read More</a>
+		</div>
+		<div class='popup' id='pop4'>
+			<img src="images/petrified_dunes.png" id="petrified_dunes" alt="Petrified Dunes Trail">
+			<h2>Petrified Dunes</h2>
+			<p>The Petrified Dunes are a series of rock formations located in Arches National Park. The dunes can be found just off of the park road between the Courthouse Towers and the Windows Area. The formation was produced when ancient sand dunes hardened into stone under the overlying subsequent material, which later eroded away.</p>
+			<a href="https://www.nps.gov/articles/nps-geodiversity-atlas-arches-national-park-utah.htm" target="_blank">Read More</a>
+		</div>
+		<div class='popup' id='pop5'>
+			<img src="images/red_cliffs.png" id="red_cliffs" alt="Red Cliffs Lodging">
+			<br>
+			<h2>Red Cliff Lodge</h2>
+			<p>Red Cliffs Lodge is Moab's National Park experience. Located on the banks of the mighty Colorado River surrounded by 2000 foot cliffs on 220 acres. Lodging includes suites and cabins all with private water views.</p>
+			<br>
+			<br>
+			<a href="https://www.redcliffslodge.com/" target="_blank">Check Reservations</a>
+		</div>
+		<div class='popup' id='pop6'>
+			<img src="images/windows_section.png" id="windows_section" alt="Windows Section Trail">
+			<h2>Windows Section</h2>
+			<p>The Windows Section is considered by some to be the beating heart of Arches National Park. The area contains a large concentration of arches and is one of the most scenic locations in the park. North Window, Turret Arch, and Double Arch are just a few of the awe-inspiring expanses you’ll find in just over two square miles.</p>
+			<a href="https://www.nps.gov/arch/planyourvisit/the-windows.htm" target="_blank">Read More</a>
+		</div>
+		<div class='popup' id='pop7'>
+			<img src="images/balanced_rock.png" id="balanced_rock" alt="Balanced Rock Trail">
+			<h2>Balanced Rock</h2>
+			<p>Balanced Rock, one of the most iconic features in the park, stands a staggering 128 feet (39m) tall. While this formation may appear to be an epic balancing act, it’s actually not balanced at all. The slick rock boulder of Entrada Sandstone sits attached to its eroding pedestal of Dewey Bridge mudstone. The exposure of these two rock strata layers are ideal for the formation of arches and balanced rocks.
+			</p>
+			<a href="https://www.nps.gov/arch/planyourvisit/balancedrock.htm" target="_blank">Read More</a>
+		</div>
+		<div class='popup' id='pop8'>
+			<img src="images/delicate_arch.png" id="delicate_arch" alt="Delicate Arch Hike">
+			<h2>Delicate Arch</h2>
+			<p>People come from all over the world to visit Arches National Park, and visiting Delicate Arch is on the top of many visitors' to-do lists. In a park with over 2,000 stone arches, this particular free-standing arch has become a widely recognized symbol of the state of Utah and one of the most famous geologic features in the world.
+			</p>
+			<a href="https://www.nps.gov/arch/planyourvisit/delicate-arch.htm" target="_blank">Read More</a>
+			</div>
+		<div class='popup' id='pop9'>
+			<img src="images/skyline_arch.png" id="skyline_arch" alt="Skyline Arch Trail">
+			<h2>Skyline Arch</h2>
+			<p>A short, out-and-back hike on well defined trail leads to an arch in a high wall. A gentle, rocky uphill slope at the beginning of the trail continues along a relatively flat path to the base of the arch. Notice a rock pile at the bottom of the arch. Evening is a good time for photography, as the setting sun shines a deep orange on the face of the arch.</p>
+			<a href="https://www.nps.gov/thingstodo/arches-skyline-arch.htm" target="_blank">Read More</a>
+		</div>
+		<div class='popup' id='pop10'>
+			<img src="images/devils_garden.png" id="devils_garden" alt="Devils Garden Campground">
+			<h2>Devils Garden</h2>
+			<p>Adventure waits for sightseers, hikers, and thrill-seekers in Devils Garden – one of the premier locations in the park. Here you’ll find arches, spires, and a large concentration of narrow rock walls called “fins.” Fins form when rainwater erodes parallel fractures caused by the uplift of salt deposits below the surface. Fins eventually erode and give way to the formation of arches.</p>
+			<a href="https://www.nps.gov/arch/planyourvisit/devils-garden.htm" target="_blank">Read More</a>
+		</div>
+	</div>
+</div>
+<div id='minMap'>
+	<img src='images/map.jpg'>
+	<div id='mmSite'></div>
+</div>
+<!-- Remaining Content -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/template.js"></script>
+
+</body>
+</html>
